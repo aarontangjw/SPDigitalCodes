@@ -2,6 +2,7 @@ import java.io.*;
 import java.util.*;
 import java.util.ArrayList;
 
+//Outputs the combinations of letters that can be formed from a given input digit.
 class Solution {
     final static Map<Character, List<String>> map = new HashMap<>();
 
@@ -46,9 +47,7 @@ class Solution {
         }
     }
 
-    // Driver code
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Digits: ");
